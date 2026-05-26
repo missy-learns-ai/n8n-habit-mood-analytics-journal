@@ -4,6 +4,9 @@ An n8n workflow for tracking daily mood, energy, stress, focus, sleep, and small
 
 This project is designed as a personal analytics journal, not a medical tool. It helps you notice patterns in your own data, preserve useful habits, and choose one small experiment for the next week.
 
+<img width="1001" height="607" alt="image" src="https://github.com/user-attachments/assets/a3097a6f-76c0-4f54-812f-044d78ab0b7e" />
+
+
 ## What This Workflow Does
 
 The workflow has two main loops:
@@ -15,6 +18,8 @@ The workflow has two main loops:
    - Appends the entry to Google Sheets.
    - Sends a confirmation email.
    - Sends a more supportive confirmation if the entry is flagged as heavy or low.
+<img width="1222" height="466" alt="image" src="https://github.com/user-attachments/assets/ddd44170-a496-4b11-94c6-2e93a1ea129b" />
+
 
 2. Weekly insights flow
    - Runs every Monday at 9:00.
@@ -26,6 +31,8 @@ The workflow has two main loops:
    - Parses the LLM response into structured fields.
    - Appends the weekly report to Google Sheets.
    - Emails a formatted weekly insight report.
+<img width="1209" height="456" alt="image" src="https://github.com/user-attachments/assets/cb5cde5e-9750-4bdb-8879-05ab622d35cb" />
+
 
 ## Repository Contents
 
